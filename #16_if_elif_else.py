@@ -5,18 +5,18 @@
 valor_1 = input('Digite o primeiro valor: ')
 valor_2 = input('Digite o segundo valor: ')
 operacao = input('Digite qual será a operação: ')
+soma = float(valor_1) + float(valor_2)
+mult = float(valor_1) * float(valor_2) 
+div = float(valor_1) / float(valor_2)
+sub = float(valor_1) - float(valor_2)
 
 if operacao == 'Soma':
-    resultado = int(valor_1) + int(valor_2) 
-    print(f'O resultado de {valor_1} + {valor_2} é {resultado}')
+    print(f'O resultado de {valor_1} + {valor_2} é {soma}')
 elif operacao == 'Multiplicação':
-    resultado = int(valor_1) * int(valor_2) 
-    print(f'O resultado de {valor_1} * {valor_2} é {resultado}')
+    print(f'O resultado de {valor_1} * {valor_2} é {mult}')
 elif operacao == 'Subtração':
-    resultado = int(valor_1) - int(valor_2) 
-    print(f'O resultado de {valor_1} - {valor_2} é {resultado}')
+    print(f'O resultado de {valor_1} - {valor_2} é {sub}')
 elif operacao == 'Divisão':
-    resultado = int(valor_1) / int(valor_2) 
-    print(f'O resultado de {valor_1} / {valor_2} é {resultado}')
+    print(f'O resultado de {valor_1} / {valor_2} é {div}')
 else: 
     print('Operação inválida. As operações possíveis são soma, multiplicação, subtração e divisão.')
