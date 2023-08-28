@@ -5,6 +5,8 @@
 valor_1 = input('Digite o primeiro valor: ')
 valor_2 = input('Digite o segundo valor: ')
 operacao = input('Digite qual será a operação: ')
+if valor_2 == '0' and operacao == 'Divisão':
+    print('Operação inválida: divisão por zero')
 soma = float(valor_1) + float(valor_2)
 mult = float(valor_1) * float(valor_2) 
 div = float(valor_1) / float(valor_2)
