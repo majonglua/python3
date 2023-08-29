@@ -4,6 +4,3 @@
 # se qualquer valor for falso, a expressão inteira também será
 # Falsy: 0, 0.0, ''
 # Tipo none: representa um não valor
-#
-#
-#
